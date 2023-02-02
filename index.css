@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.boxes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .boxes-container {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .box {
+    margin: 0 0 20px 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .box {
+    margin: 0 0 40px 40px;
+  }
+}
+
+.small-box {
+  width: 80px;
+  height: 80px;
+  margin-top: 24px;
+  background-color: #fbbf24;
+}
+
+@media screen and (min-width: 768px) {
+  .small-box {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .small-box {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .small-box {
+    height: 140px;
+    width: 140px;
+  }
+}
+
+.medium-box {
+  width: 150px;
+  height: 150px;
+  background-color: #38bdf8;
+}
+
+@media screen and (min-width: 768px) {
+  .medium-box {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .medium-box {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+.large-box {
+  width: 270px;
+  height: 270px;
+  background-color: #ec4899;
+}
+
+@media screen and (min-width: 768px) {
+  .large-box {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .large-box {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .large-box {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+.box-title {
+  font-family: "Bree Serif";
+  font-size: 15px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .box-title {
+    font-size: 20px;
+  }
+}
